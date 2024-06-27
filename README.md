@@ -37,6 +37,22 @@ Classical Markowitz portfolio optimization for long only portfolio solves the fo
 
 $\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, w \in W\$
 
+### Index Tracking Markowitz Optimization 
+
+### Conclusion
+This study presented several strategies of incorporating ESG considerations in the
+classical as well as index tracking Markowitz portfolio optimization process and
+compared performances. 
+Analysis on tradeoff between better
+risk/return performance and better ESG performance is shown that can be useful to
+investors for choosing an ideal portfolio based on their risk/returns preferences.
+To sum it all up, ESG strategies do seem to have a bright future with investor interest in
+ESG based portfolios growing rapidly over time, especially after the importance of taking
+into account environmental, social and governance factors in investment decisions has
+become important with the covid crisis acting as a catalyst for development of ESG
+focused strategies
+
+
 
 
 
