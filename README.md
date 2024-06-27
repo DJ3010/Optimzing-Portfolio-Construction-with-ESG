@@ -131,6 +131,20 @@ $\min w^T\Sigma w \quad st. 1^Tw = 1, \beta ^Tw = 1, w > 0, w \in W \qquad (2) \
    k_1 = 0.95 (i.e. allow 5% less returns of No ESG portfolio) <br>
    k_2 = 1.05 (i.e. allow 5% more risk of No ESG portfolio)
 
+The performance of all the above-mentioned strategies is as shown:
+
+<img width="1006" alt="Screenshot 2024-06-27 at 10 34 25 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/fb66c5e4-08ab-4ade-a953-eaa83db0696c">
+
+
+The cumulative returns of all strategies using Classical Markowitz optimization are as follows:
+
+
+
+The ESG Risk scores of each strategy are:
+
+
+
+
 ### Conclusion
 This study presented several strategies of incorporating ESG considerations in the classical as well as index tracking Markowitz portfolio optimization process and compared performances. Analysis on tradeoff between better risk/return performance and better ESG performance is shown that can be useful to investors for choosing an ideal portfolio based on their risk/returns preferences. <br>
 To sum it all up, ESG strategies do seem to have a bright future with investor interest in ESG based portfolios growing rapidly over time, especially after the importance of taking into account environmental, social and governance factors in investment decisions has become important with the covid crisis acting as a catalyst for development of ESG focused strategies. Over time companies will start taking ESG considerations more and more seriously, allowing investors to hold portfolios with purpose
