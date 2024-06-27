@@ -29,8 +29,16 @@ Two optimization methods are considered:
 
 To test and compare the performance of all these strategies, following performance metrics are used:
 - **Return**: Compounded annual growth rate of daily returns
-- **Volatility**:
-- **Sharpe Ratio**:
+- **Volatility**: Annualized standard deviation from daily returns
+- **Sharpe Ratio**: Annualized risk-adjusted returns
+- **Tracking Error**: Annualized standard deviation of excess returns to benchmark
+- **Information Ratio**: Annualized excess returns compared to volatility of excess returns
+- **Max Drawdown**: Maximum decline from previous peak
+- **Calmer Ratio**: Annualized returns given maximum drawdowns
+- **Sortino Ratio**: Annualized downside risk adjusted returns
+- **95% Var**: Maximum annual loss with 95% confidence
+- **ESG Risk score**: Average ESG Risk score
+- **Sharpe/ESG Risk Score**: Annualized Sharpe ratio for a unit ESG Risk score
 
 ### Classical Markowitz Optimization
 
