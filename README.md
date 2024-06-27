@@ -14,3 +14,12 @@ Apart from the point in time universe, the data includes three main components:
 The ESG data is from Wharton Research Data Services. The data vendor used is RepRisk, which gives the ESG Risk score denoting the current level of reputational risk exposure of a company related to ESG issues. Its values are between 0 to 100. the lower the ESG Risk score, the better the company is from an ESG point of view.
 
 <img width="940" alt="Screenshot 2024-06-27 at 4 00 59 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/ed778068-b9d0-4bfb-943e-cd496b9d09f4">
+
+### ESG Strategies
+For building strategies focused on ESG, it is important to consider how to incorporate ESG in the process to construct a robust and adaptable portfolio. For this, different levels of importance are placed on ESG Risk score in the portfolio construction process. 
+
+<img width="396" alt="Screenshot 2024-06-27 at 4 17 25 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/9b2c0690-bd96-4bc2-96ab-ba0b155169d5">
+
+
+
+
