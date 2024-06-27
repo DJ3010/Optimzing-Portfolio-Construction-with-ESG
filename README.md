@@ -92,14 +92,14 @@ $\min w^T\Sigma w \quad st. 1^Tw = 1, \beta ^Tw = 1, w > 0, w \in W \qquad (2) \
 4. Full ESG Constraint: <br>
    Use the below optimization on the entire point in time universe:
    
-   $\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, ESG Risk score < k.esg, w \in W \$ 
+   $\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1,\beta ^Tw = 1, w > 0, ESG Risk score < k.esg, w \in W \$ 
 
    _esg_ = ESG Risk score of the No ESG portfolio <br>
    _k_ = 0.95
 5. Full ESG Objective: <br>
    Use the below optimization on the entire point in time universe:
 
-   $\min ESG Risk score \quad st. 1^Tw = 1, w > 0, \mu ^ T w  > k_1.ret, w^T \Sigma w < k_2.var \$
+   $\min ESG Risk score \quad st. 1^Tw = 1, \beta ^Tw = 1, w > 0, \mu ^ T w  > k_1.ret, w^T \Sigma w < k_2.var \$
 
    k_1 = 0.95 (i.e. allow 5% less returns of No ESG portfolio) <br>
    k_2 = 1.05 (i.e. allow 5% more risk of No ESG portfolio)
