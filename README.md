@@ -27,10 +27,20 @@ Two optimization methods are considered:
 1) Classical Markowitz and
 2) Index Tracking Markowitz.
 
-To test and compare the performance of all these strategies, following performance metrics are used,
+To test and compare the performance of all these strategies, following performance metrics are used:
+
 <img width="686" alt="Screenshot 2024-06-27 at 4 21 25 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/ea2f27e7-fa02-4be3-b1ac-b3160c7d9c5c">
 
+### Classical Markowitz Optimization
 
+Classical Markowitz portfolio optimization for long only portfolio solves the following optimization problem to allocate weights to companies within the portfolio, where γ is the risk aversion parameter and the optimal weights selected are corresponding to the γ that gives the highest Sharpe Ratio:
+𝑚𝑎𝑥 µ
+𝑇
+𝑤 − γ𝑤
+𝑇
+Σ𝑤 𝑠𝑡. 1
+𝑇
+𝑤 = 1, 𝑤 > 0, 𝑤 ∈ �
 
 
 
