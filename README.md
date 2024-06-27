@@ -78,8 +78,15 @@ The performance of all the above-mentioned strategies is as shown:
 <img width="1180" alt="Screenshot 2024-06-27 at 8 12 19 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/f12be3a8-42cf-46bf-9868-561302771b1d">
 
 <br>
+
 The cumulative returns of all strategies using Classical Markowitz optimization are as follows:
+
 <img width="1347" alt="Screenshot 2024-06-27 at 7 12 16 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/d79bb5b2-6236-41e8-a4a0-c92b23a485da">
+
+The ESG Risk scores of each strategy are:
+
+<img width="1100" alt="Screenshot 2024-06-27 at 8 18 14 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/9bfbe475-838f-44fa-8937-6e59c121da38">
+
 
 ### Index Tracking Markowitz Optimization 
 
@@ -113,8 +120,6 @@ $\min w^T\Sigma w \quad st. 1^Tw = 1, \beta ^Tw = 1, w > 0, w \in W \qquad (2) \
 
    k_1 = 0.95 (i.e. allow 5% less returns of No ESG portfolio) <br>
    k_2 = 1.05 (i.e. allow 5% more risk of No ESG portfolio)
-
-<img width="1347" alt="Screenshot 2024-06-27 at 7 12 16 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/aeac885e-6560-493f-b027-8130b6ce2f31">
 
 ### Conclusion
 This study presented several strategies of incorporating ESG considerations in the classical as well as index tracking Markowitz portfolio optimization process and compared performances. Analysis on tradeoff between better risk/return performance and better ESG performance is shown that can be useful to investors for choosing an ideal portfolio based on their risk/returns preferences. <br>
