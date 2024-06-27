@@ -53,8 +53,11 @@ $\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, w \in W  \qquad (
      filter current point in time universe based on last month's ESG Risk score and run this optimization problem on the selected universe of the top 25 companies with the least ESG Risk score
    - Bottom 25:
      filter current point in time universe based on last month's ESG Risk score and run this optimization problem on the selected universe of the bottom 25 companies with most ESG Risk score
-3. Full ESG Scaling: <br>
-   Use (1) on the entire point in time universe to find optimal weights. Then scale the weights by multiplying them with the ESG Risk score or ESG Trend score and dividing by the sum of weights to make them sum up to 1.
+3. Full ESG Scaling:
+   - Tilt Scale:
+   Use (1) on the entire point in time universe to find optimal weights. Then scale the weights by multiplying them with the ESG Risk score and dividing by the sum of weights to make them sum up to 1.
+   - Momentum Scale:
+   Use (1) on the entire point in time universe to find optimal weights. Then scale the weights by multiplying them with the ESG Trend score and dividing by the sum of weights to make them sum up to 1.
 4. Full ESG Constraint: <br>
    Use the below optimization on the entire point in time universe:
    
@@ -87,8 +90,11 @@ $\min w^T\Sigma w \quad st. 1^Tw = 1, \beta ^Tw = 1, w > 0, w \in W \qquad (2) \
      filter current point in time universe based on last month's ESG Risk score and run this optimization problem on the selected universe of the top 25 companies with the least ESG Risk score
    - Bottom 25:
      filter current point in time universe based on last month's ESG Risk score and run this optimization problem on the selected universe of the bottom 25 companies with most ESG Risk score
-3. Full ESG Scaling: <br>
-   Use (2) on the entire point in time universe to find optimal weights. Then scale the weights by multiplying them with the ESG Risk score or ESG Trend score and dividing by the sum of weights to make them sum up to 1.
+3. Full ESG Scaling:
+   - Tilt Scale:
+   Use (1) on the entire point in time universe to find optimal weights. Then scale the weights by multiplying them with the ESG Risk score and dividing by the sum of weights to make them sum up to 1.
+   - Momentum Scale:
+   Use (1) on the entire point in time universe to find optimal weights. Then scale the weights by multiplying them with the ESG Trend score and dividing by the sum of weights to make them sum up to 1.
 4. Full ESG Constraint: <br>
    Use the below optimization on the entire point in time universe:
    
