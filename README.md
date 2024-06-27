@@ -78,7 +78,32 @@ $\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, w \in W  \qquad (
 
 Index tracking Markowitz portfolio optimization for long only portfolio solves the following optimization problem to allocate weights to companies within the portfolio, where β is the list of betas (the covariance of the return of a company with the return of the index divided by the variance of the return of the index over past one year) of all companies in the point in time universe with respect to the index S&P 100.
 
-$\min w^T\Sigma w \quad st. 1^Tw = 1, \beta ^Tw = 1, w > 0, w \in W \$
+$\min w^T\Sigma w \quad st. 1^Tw = 1, \beta ^Tw = 1, w > 0, w \in W \qquad (2) \$
+
+1. No ESG: <br>
+   Use (2) on the entire point in time universe to find optimal weights.
+2. Semi ESG Strategies:
+   - Top 25:
+     filter current point in time universe based on last month's ESG Risk score and run this optimization problem on the selected universe of the top 25 companies with the least ESG Risk score
+   - Bottom 25:
+     filter current point in time universe based on last month's ESG Risk score and run this optimization problem on the selected universe of the bottom 25 companies with most ESG Risk score
+3. Full ESG Scaling: <br>
+   Use (2) on the entire point in time universe to find optimal weights. Then scale the weights by multiplying them with the ESG Risk score or ESG Trend score and dividing by the sum of weights to make them sum up to 1.
+4. Full ESG Constraint: <br>
+   Use the below optimization on the entire point in time universe:
+   
+   $\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, ESG Risk score < k.esg, w \in W \$ 
+
+   _esg_ = ESG Risk score of the No ESG portfolio <br>
+   _k_ = 0.95
+5. Full ESG Objective: <br>
+   Use the below optimization on the entire point in time universe:
+
+   $\min ESG Risk score \quad st. 1^Tw = 1, w > 0, \mu ^ T w  > k_1.ret, w^T \Sigma w < k_2.var \$
+
+   k_1 = 0.95 (i.e. allow 5% less returns of No ESG portfolio) <br>
+   k_2 = 1.05 (i.e. allow 5% more risk of No ESG portfolio)
+
 
 ### Conclusion
 This study presented several strategies of incorporating ESG considerations in the classical as well as index tracking Markowitz portfolio optimization process and compared performances. Analysis on tradeoff between better risk/return performance and better ESG performance is shown that can be useful to investors for choosing an ideal portfolio based on their risk/returns preferences. <br>
