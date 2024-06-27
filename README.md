@@ -94,7 +94,8 @@ The ESG Risk scores of each strategy are:
 - Volatility is almost constant for all strategies.
 - Pre covid, all strategies underperform the index and a sudden boom is observed post covid
 - The Semi ESG Bottom strategy experiences the maximum boom and outperforms all others.
-- the Semi ESG Top strategy has the lowest ESG Risk score (A grade) while the Semi ESG Bottom strategy has the highest ESG Risk score (C grade)
+- The Semi ESG Top strategy has the lowest ESG Risk score (A grade)
+- The Semi ESG Bottom strategy has the highest ESG Risk score (C grade)
 - ESG Risk score is very volatile for all the strategies
 
 ### Index Tracking Markowitz Optimization 
