@@ -92,11 +92,11 @@ The ESG Risk scores of each strategy are:
 
 **Key Observations**:
 - Volatility is almost constant for all strategies.
-- Pre covid, all strategies underperform the index and a sudden boom is observed post covid
+- Pre covid, all strategies underperform the index and a sudden boom is observed post covid.
 - The Semi ESG Bottom strategy experiences the maximum boom and outperforms all others.
-- The Semi ESG Top strategy has the lowest ESG Risk score (A grade)
-- The Semi ESG Bottom strategy has the highest ESG Risk score (C grade)
-- ESG Risk score is very volatile for all the strategies
+- The Semi ESG Top strategy has the lowest ESG Risk score (A grade).
+- The Semi ESG Bottom strategy has the highest ESG Risk score (C grade).
+- ESG Risk score is very volatile for all the strategies.
 
 ### Index Tracking Markowitz Optimization 
 
@@ -138,12 +138,19 @@ The performance of all the above-mentioned strategies is as shown:
 
 The cumulative returns of all strategies using Classical Markowitz optimization are as follows:
 
-
+<img width="943" alt="Screenshot 2024-06-27 at 10 39 36 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/db70d1e1-a293-4eb9-9b9c-3e695ca07ac0">
 
 The ESG Risk scores of each strategy are:
 
+<img width="1118" alt="Screenshot 2024-06-27 at 10 40 29 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/072f4429-097f-4432-8696-4ca6f9efa738">
 
-
+<br>
+<br>
+**Key Observations**:
+- Semi ESG Bottom strategy performs the best with the highest Sharpe Ratio but has the worst ESG Risk score.
+- Semi ESG Top strategy underperforms the index but has the best ESG Risk score.
+- All the ESG favoring strategies have lesser ESG risk scores than No ESG strategy.
+- Unlike the Classical Markowitz optimization results, their ESG Risk scores are less volatile.
 
 ### Conclusion
 This study presented several strategies of incorporating ESG considerations in the classical as well as index tracking Markowitz portfolio optimization process and compared performances. Analysis on tradeoff between better risk/return performance and better ESG performance is shown that can be useful to investors for choosing an ideal portfolio based on their risk/returns preferences. <br>
