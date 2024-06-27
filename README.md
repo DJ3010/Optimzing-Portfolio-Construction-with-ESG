@@ -20,6 +20,13 @@ For building strategies focused on ESG, it is important to consider how to incor
 
 <img width="396" alt="Screenshot 2024-06-27 at 4 17 25 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/9b2c0690-bd96-4bc2-96ab-ba0b155169d5">
 
+### Portfolio Optimization Analysis
+Past one year daily returns data of the companies in the current point in time universe is used to calculate the mean and covariance matrix for optimization. For ESG parameters in the optimization, ESG Risk score from the past month is used. The portfolios are rebalanced monthly and out of sample returns and ESG scores are calculated to compare all the strategies. <br>
+
+Two optimization methods are considered: 
+1) Classical Markowitz and
+2) Index Tracking Markowitz.
+
 
 
 
