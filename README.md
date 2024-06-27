@@ -86,7 +86,10 @@ The cumulative returns of all strategies using Classical Markowitz optimization 
 The ESG Risk scores of each strategy are:
 
 <img width="1100" alt="Screenshot 2024-06-27 at 8 18 14 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/9bfbe475-838f-44fa-8937-6e59c121da38">
+
 <br>
+<br>
+
 **Key Observations**:
 - Volatility is almost constant for all strategies.
 - Pre covid, all strategies underperform the index and a sudden boom is observed post covid
