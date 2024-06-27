@@ -4,7 +4,7 @@ Analyzed the effect of ESG Risk score by RepRisk on Portfolio Optimization for t
 1) Maximize returns using the risk aversion parameter and
 2) Minimize risk such that the portfolio tracks the benchmark (beta=1 with S&P 100). 
 
-### Data
+### DATA
 The data used here ranges from January 2015 to December 2020 for all companies in the S&P 100 point in time universe. It is important to note that the point in time universe is considered to remove the survivorship bias. So at any time instance, we trade on only those companies that are present in the universe at that time instance. Constituents of S&P 100 are considered to be rebalanced monthly. <br>
 Apart from the point in time universe, the data includes three main components:
 1. Daily price data for all companies in the universe and the S&P 100 (OEX) index
@@ -15,12 +15,12 @@ The ESG data is from Wharton Research Data Services. The data vendor used is Rep
 
 <img width="940" alt="Screenshot 2024-06-27 at 4 00 59 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/ed778068-b9d0-4bfb-943e-cd496b9d09f4">
 
-### ESG Strategies
+### ESG STRATEGIES
 For building strategies focused on ESG, it is important to consider how to incorporate ESG in the process to construct a robust and adaptable portfolio. For this, different levels of importance are placed on ESG Risk score in the portfolio construction process. 
 
 <img width="396" alt="Screenshot 2024-06-27 at 4 17 25 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/9b2c0690-bd96-4bc2-96ab-ba0b155169d5">
 
-### Portfolio Optimization Analysis
+### PORTFOLIO OPTIMIZATION ANALYSIS
 Past one year daily returns data of the companies in the current point in time universe is used to calculate the mean and covariance matrix for optimization. For ESG parameters in the optimization, ESG Risk score from the past month is used. The portfolios are rebalanced monthly and out of sample returns and ESG scores are calculated to compare all the strategies. <br>
 
 Two optimization methods are considered: 
@@ -40,7 +40,7 @@ To test and compare the performance of all these strategies, following performan
 - **ESG Risk score**: Average ESG Risk score
 - **Sharpe/ESG Risk Score**: Annualized Sharpe ratio for a unit ESG Risk score
 
-### Classical Markowitz Optimization
+### CLASSICAL MARKOWITZ OPTIMIZATION
 
 Classical Markowitz portfolio optimization for long only portfolio solves the following optimization problem to allocate weights to companies within the portfolio, where γ is the risk aversion parameter and the optimal weights selected are corresponding to the γ that gives the highest Sharpe Ratio:
 
@@ -98,7 +98,7 @@ The ESG Risk scores of each strategy are:
 - The Semi ESG Bottom strategy has the highest ESG Risk score (C grade).
 - ESG Risk score is very volatile for all the strategies.
 
-### Index Tracking Markowitz Optimization 
+### INDEX TRACKING MARKOWITZ OPTIMIZATION 
 
 Index tracking Markowitz portfolio optimization for long only portfolio solves the following optimization problem to allocate weights to companies within the portfolio, where β is the list of betas (the covariance of the return of a company with the return of the index divided by the variance of the return of the index over past one year) of all companies in the point in time universe with respect to the index S&P 100.
 
@@ -152,7 +152,9 @@ The ESG Risk scores of each strategy are:
 - All the ESG favoring strategies have lesser ESG risk scores than No ESG strategy.
 - Unlike the Classical Markowitz optimization results, their ESG Risk scores are less volatile.
 
-### Conclusion
+### RETURNS/RISK VS. ESG PERFORMANCE TRADEOFF
+
+### CONCLUSION
 This study presented several strategies of incorporating ESG considerations in the classical as well as index tracking Markowitz portfolio optimization process and compared performances. Analysis on tradeoff between better risk/return performance and better ESG performance is shown that can be useful to investors for choosing an ideal portfolio based on their risk/returns preferences. <br>
 To sum it all up, ESG strategies do seem to have a bright future with investor interest in ESG based portfolios growing rapidly over time, especially after the importance of taking into account environmental, social and governance factors in investment decisions has become important with the covid crisis acting as a catalyst for development of ESG focused strategies. Over time companies will start taking ESG considerations more and more seriously, allowing investors to hold portfolios with purpose
 
