@@ -44,9 +44,22 @@ To test and compare the performance of all these strategies, following performan
 
 Classical Markowitz portfolio optimization for long only portfolio solves the following optimization problem to allocate weights to companies within the portfolio, where γ is the risk aversion parameter and the optimal weights selected are corresponding to the γ that gives the highest Sharpe Ratio:
 
-$\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, w \in W\$
+$\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, w \in W  \qquad (1) \$
+
+1. No ESG Strategies:
+   Use (1) on the entire point in time universe to find optimal weights.
+2. Semi ESG Strategies:
+   - Top 25:
+     filter current point in time universe based on last month's ESG Risk score and run this optimization problem on the selected universe of the top 25 companies with the least ESG Risk score
+   - Bottom 25:
+     filter current point in time universe based on last month's ESG Risk score and run this optimization problem on the selected universe of the bottom 25 companies with most ESG Risk score
+   
 
 ### Index Tracking Markowitz Optimization 
+
+Index tracking Markowitz portfolio optimization for long only portfolio solves the following optimization problem to allocate weights to companies within the portfolio, where β is the list of betas (the covariance of the return of a company with the return of the index divided by the variance of the return of the index over past one year) of all companies in the point in time universe with respect to the index S&P 100.
+
+$\min w^T\Sigma w \quad st. 1^Tw = 1, \beta ^Tw = 1, w > 0, w \in W \$
 
 ### Conclusion
 This study presented several strategies of incorporating ESG considerations in the classical as well as index tracking Markowitz portfolio optimization process and compared performances. Analysis on tradeoff between better risk/return performance and better ESG performance is shown that can be useful to investors for choosing an ideal portfolio based on their risk/returns preferences. <br>
