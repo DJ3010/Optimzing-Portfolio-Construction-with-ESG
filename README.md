@@ -52,6 +52,12 @@ into account environmental, social and governance factors in investment decision
 become important with the covid crisis acting as a catalyst for development of ESG
 focused strategies
 
+### References
+1. https://www.researchgate.net/publication/342132005_A_Framework_for_ESG_Portfolio_Construction
+2. https://www.stern.nyu.edu/sites/default/files/assets/documents/MSCI_ESG_Research_Insight_Optimizing_ESG_Factors_in_Portfolio_Construction_February_2013.pdf
+3. https://www.fool.com/investing/stock-market/market-sectors/
+4. https://www.amundi.com/institutional/files/nuxeo/dl/c22a9bd5-ad8b-4a13-a932-1bdb524a238b
+5. https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
 
 
 
