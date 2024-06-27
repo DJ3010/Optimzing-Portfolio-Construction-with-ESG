@@ -73,9 +73,7 @@ $\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, w \in W  \qquad (
    k_1 = 0.95 (i.e. allow 5% less returns of No ESG portfolio) <br>
    k_2 = 1.05 (i.e. allow 5% more risk of No ESG portfolio)
    
-   
-
-   
+<img width="1347" alt="Screenshot 2024-06-27 at 7 12 16 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/d79bb5b2-6236-41e8-a4a0-c92b23a485da">
 
 ### Index Tracking Markowitz Optimization 
 
