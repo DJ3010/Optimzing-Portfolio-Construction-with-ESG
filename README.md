@@ -75,8 +75,9 @@ $\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, w \in W  \qquad (
 
 The performance of all the above-mentioned strategies is as shown:
 
-<img width="1180" alt="Screenshot 2024-06-27 at 8 07 36 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/4c07c3c9-66dc-43d8-b587-123632b7f25f">
+<img width="1180" alt="Screenshot 2024-06-27 at 8 12 19 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/f12be3a8-42cf-46bf-9868-561302771b1d">
 
+<br>
 The cumulative returns of all strategies using Classical Markowitz optimization are as follows:
 <img width="1347" alt="Screenshot 2024-06-27 at 7 12 16 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/d79bb5b2-6236-41e8-a4a0-c92b23a485da">
 
