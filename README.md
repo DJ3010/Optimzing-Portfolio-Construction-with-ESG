@@ -146,6 +146,7 @@ The ESG Risk scores of each strategy are:
 
 <br>
 <br>
+
 **Key Observations**:
 - Semi ESG Bottom strategy performs the best with the highest Sharpe Ratio but has the worst ESG Risk score.
 - Semi ESG Top strategy underperforms the index but has the best ESG Risk score.
@@ -153,6 +154,18 @@ The ESG Risk scores of each strategy are:
 - Unlike the Classical Markowitz optimization results, their ESG Risk scores are less volatile.
 
 ### RETURNS/RISK VS. ESG PERFORMANCE TRADEOFF
+Conducted the analysis by taking the minimum returns needed as a certain percentage of No ESG portfolio return and by taking the maximum risk allowed as a certain percentage of No ESG portfolio risk. <br>
+Performance tradeoff by varying minimum returns needed or maximum risk allowed in Full ESG Objective strategies (Obj1 and Obj2) is as follows:
+
+<img width="1009" alt="Screenshot 2024-06-27 at 11 06 56 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/8eab0802-2eb8-48d7-967c-8c14c169e284">
+
+<br>
+
+**Key Observations**:
+- Small Trade-Off in Returns for Significant ESG Improvement: Allowing for 5% less returns or 5% more risk results in a minimal drop in returns but a substantial decrease in the ESG Risk score, upgrading the portfolio from a B grade to almost an A grade.
+- Balancing Performance and ESG Appeal: The enhancement in ESG rating makes the portfolio attractive to investors willing to sacrifice a small amount of performance for better ESG compliance.
+- Optimizing Portfolios Based on Preferences: Investors can utilize this trade-off analysis to adjust their portfolios, balancing between their desired risk/return profile and ESG goals.
+
 
 ### CONCLUSION
 This study presented several strategies of incorporating ESG considerations in the classical as well as index tracking Markowitz portfolio optimization process and compared performances. Analysis on tradeoff between better risk/return performance and better ESG performance is shown that can be useful to investors for choosing an ideal portfolio based on their risk/returns preferences. <br>
