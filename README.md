@@ -35,7 +35,7 @@ To test and compare the performance of all these strategies, following performan
 
 Classical Markowitz portfolio optimization for long only portfolio solves the following optimization problem to allocate weights to companies within the portfolio, where γ is the risk aversion parameter and the optimal weights selected are corresponding to the γ that gives the highest Sharpe Ratio:
 
-$\max \mu^T\$
+$\max \mu^Tw - \gamma w^T\Sigma w \quad   st. 1^Tw = 1, w > 0, w \in W\$
 
 
 
