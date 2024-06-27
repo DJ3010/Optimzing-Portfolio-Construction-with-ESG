@@ -28,8 +28,9 @@ Two optimization methods are considered:
 2) Index Tracking Markowitz.
 
 To test and compare the performance of all these strategies, following performance metrics are used:
-
-<img width="686" alt="Screenshot 2024-06-27 at 4 21 25 PM" src="https://github.com/DJ3010/Optimzing-Portfolio-Construction-with-ESG/assets/171126740/ea2f27e7-fa02-4be3-b1ac-b3160c7d9c5c">
+- **Return**: Compounded annual growth rate of daily returns
+- **Volatility**:
+- **Sharpe Ratio**:
 
 ### Classical Markowitz Optimization
 
