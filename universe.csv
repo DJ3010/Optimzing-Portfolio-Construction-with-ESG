@@ -1,0 +1,117 @@
+Ticker,Name,Sector,RepRisk_ID
+AAPL,Apple Inc,Technology,16
+ABBV,AbbVie Inc,Health Care,104428
+ABT,Abbott Laboratories,Health Care,280
+ACN,Accenture,Technology,2972
+ADBE,Adobe Systems Inc,Technology,6351
+AGN,Allergan Inc,Health Care,105712
+AIG,American Intl Group Inc,Financials,2095
+ALL,Allstate Corp,Financials,1829
+AMGN,Amgen Inc,Health Care,6211
+AMT,American Tower Corp A,Financials,6460
+AMZN,Amazon.com Inc,Consumer Discretionary,3173
+APC,Anadarko Petroleum Corp,Energy,3216
+AVGO,Broadcom Inc,Technology,6812
+AXP,American Express Co,Financials,1338
+BA,Boeing Company,Industrials,862
+BAC,Bank of America Corp,Financials,20
+BIIB,BIOGEN IDEC Inc,Health Care,6465
+BK,The Bank of New York Mellon Corp,Financials,657
+BKNG,Booking Holdings Inc,Consumer Discretionary,146591
+BLK,BlackRock,Financials,4204
+BMY,Bristol-Myers Squibb,Health Care,283
+BRK/B,Berkshire Hathaway's,Financials,645
+C,Citigroup Inc,Financials,35
+CAT,Caterpillar Inc,Industrials,30
+CELG,Celgene Corp,Health Care,6312
+CHTR,Charter Communications Inc,Consumer Discretionary,13005
+CL,Colgate-Palmolive,Consumer Staples,5076
+CMCSA,Comcast Corp,Consumer Discretionary,1783
+COF,Capital One Financial,Financials,1778
+COP,ConocoPhillips,Energy,124
+COST,Costco Co,Consumer Staples,665
+CRM,Salesforce.com,Technology,7128
+CSCO,Cisco Systems,Technology,653
+CVS,CVS Caremark Corp,Consumer Staples,4453
+CVX,Chevron Corp,Energy,31
+DD,Du Pont (E.I.),Materials,305319
+DHR,Danaher Corp,Industrials,3109
+DIS,Walt Disney Co,Consumer Discretionary,114234
+DOW,Dow Chemical,Materials,560517
+DUK,Duke Energy,Utilities,1143
+DVN,Devon Energy Corp,Energy,4887
+EMC,EMC Corp,Technology,1295459
+EMR,Emerson Electric,Industrials,3120
+EXC,Exelon Corp,Utilities,3132
+F,Ford Motor,Consumer Discretionary,60
+FDX,FedEx Corporation,Industrials,3686
+GD,General Dynamics,Industrials,1639
+GE,General Electric,Industrials,63
+GILD,Gilead Sciences,Health Care,284
+GM,General Motors,Consumer Discretionary,64
+GOOG,Google Inc,Technology,178517
+GOOGL,Alphabet Inc,Technology,178517
+GS,Goldman Sachs Group,Financials,65
+HAL,Halliburton Co,Energy,80
+HD,Home Depot,Consumer Discretionary,1010
+HON,Honeywell Int'l Inc,Industrials,2471
+IBM,International Bus. Machines,Technology,71
+INTC,Intel Corp,Technology,2195
+JNJ,Johnson & Johnson,Health Care,286
+JPM,JPMorgan Chase & Co,Financials,3685
+KHC,Kraft Heinz Co,Consumer Staples,173818
+KMI,Kinder Morgan,Energy,163157
+KO,Coca Cola Co,Consumer Staples,8959
+LIN,Linde PLC,Industrials,485612
+LLY,Lilly (Eli) & Co,Health Care,287
+LMT,Lockheed Martin Corp,Industrials,84
+LOW,Lowe's Cos.,Consumer Discretionary,3428
+MA,Mastercard Inc,Technology,6251
+MCD,McDonald's Corp,Consumer Discretionary,86
+MDLZ,Mondelez International Inc,Consumer Staples,83
+MDT,Medtronic Inc,Health Care,2481
+MET,MetLife Inc,Financials,245775
+META,Meta Platforms Inc,Technology,22775
+MMM,3M Co,Industrials,1403
+MO,Altria Group Inc,Consumer Staples,279
+MRK,Merck & Co,Health Care,288
+MS,Morgan Stanley,Financials,423
+MSFT,Microsoft Corp,Technology,90
+NEE,NextEra Energy Resources,Utilities,64240
+NFLX,NetFlix Inc,Technology,7466
+NKE,NIKE Inc,Consumer Discretionary,357
+NSC,Norfolk Southern Corp,Industrials,6331
+NVDA,Nvidia Corporation,Technology,6861
+ORCL,Oracle Corp,Technology,4413
+OXY,Occidental Petroleum,Energy,354
+PEP,PepsiCo Inc,Consumer Staples,96
+PFE,Pfizer Inc,Health Care,289
+PG,Procter & Gamble,Consumer Staples,98
+PM,Philip Morris International,Consumer Staples,476
+PYPL,PayPal,Technology,73163
+QCOM,QUALCOMM Inc,Technology,6192
+RTN,Raytheon Co,Industrials,1847
+RTX,Raytheon Technologies Corporation,Industrials,2470
+SBUX,Starbucks Corp,Consumer Discretionary,258
+SLB,Schlumberger Ltd.,Energy,2029
+SO,Southern Co,Utilities,1147
+SPG,Simon Property Group Inc,Financials,222415
+T,AT&T Inc,Telecommunications Services,72360
+TFCF,Twenty-First Century Fox Inc,Telecommunications Services,112890
+TFCFA,Twenty-First Century Fox Inc,Telecommunications Services,112890
+TGT,Target Corp,Consumer Discretionary,1430
+TMO,Thermo Fisher Scientific,Health Care,6329
+TMUS,T-Mobile Us Inc,Telecommunications Services,7749
+TSLA,Tesla Inc,Consumer Discretionary,24952
+TWX,Time Warner Inc,Consumer Discretionary,6311
+TXN,Texas Instruments,Technology,1797
+UNH,United Health Group Inc,Health Care,1337489
+UNP,Union Pacific,Industrials,6244
+UPS,United Parcel Service,Industrials,2457
+USB,U.S. Bancorp,Financials,2093
+V,Visa Inc,Technology,2463
+VZ,Verizon Communications,Telecommunications Services,2969
+WBA,Walgreens Boots Alliance Inc,Consumer Staples,1548622
+WFC,Wells Fargo,Financials,113
+WMT,Walmart Stores,Consumer Staples,112
+XOM,Exxon Mobil Corp,Energy,58
